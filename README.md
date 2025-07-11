@@ -59,5 +59,4 @@ This project implements a quantitative intraday trading strategy on minute-level
 
 ## 🧠 Author
 
-Yassine Housseine — Quantitative Finance Student  
-[📫 LinkedIn](www.linkedin.com/in/yassine-housseine-181835210)
+Yassine Housseine — Quantitative Finance Student
