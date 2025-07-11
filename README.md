@@ -21,7 +21,7 @@ This project implements a quantitative intraday trading strategy on minute-level
 - **Data**: 1-minute OHLCV from Alpha Vantage via CSV for `TSLA` and `NVDA` (2025-04 to 2025-06)
 - **Smoothing**: EWMA with lagged terms:
   \[
-  \text{EWMA}_t = \alpha P_t + \beta \text{EWMA}_{t-1} + \theta \text{EWMA}_{t-2} + (1 - \alpha - \beta - \theta) \text{EWMA}_{t-3}
+  $\text{EWMA}_t = \alpha P_t + \beta \text{EWMA}_{t-1} + \theta \text{EWMA}_{t-2} + (1 - \alpha - \beta - \theta) \text{EWMA}_{t-3}$
   \]
 - **Z-Score Calculation**: Deviation from EWMA normalized by rolling standard deviation (60-min window)
 - **Volatility Filter**: Rolling standard deviation compared to a predefined threshold
