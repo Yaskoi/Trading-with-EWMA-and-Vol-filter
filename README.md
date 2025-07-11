@@ -33,7 +33,7 @@ This project implements a quantitative intraday trading strategy on minute-level
 |---------------------------|------------|-----------|
 | Annualized Sharpe Ratio   | 2.26       | 0.98      |
 | Max Drawdown              | -61.71%    | -43.75%   |
-| Cumulative Return         | Higher     | Lower     |
+| Cumulative Return         | 3.4        | 1.17      |
 | Trades Executed           | Controlled | Passive   |
 
 > 🏁 **Result**: Strategy consistently outperforms buy-and-hold over the sample period, with better risk-adjusted returns but with higher drawdown.
@@ -55,7 +55,7 @@ This project implements a quantitative intraday trading strategy on minute-level
 - Maybe a live test with paper trading
 ---
 
-<img width="1918" height="773" alt="image" src="https://github.com/user-attachments/assets/10f96d02-8d13-4022-85b1-996b182b92b3" />
+<img width="1918" height="773" alt="image" src="https://github.com/user-attachments/assets/46b118d1-e221-4718-9c27-4bc3970cc990" />
 
 ## 🧠 Author
 
