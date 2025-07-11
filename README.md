@@ -19,10 +19,7 @@ This project implements a quantitative intraday trading strategy on minute-level
 ## 🛠️ Technical Details
 
 - **Data**: 1-minute OHLCV from Alpha Vantage via CSV for `TSLA` and `NVDA` (2025-04 to 2025-06)
-- **Smoothing**: EWMA with lagged terms:
-  $$\[
-  \text{EWMA}_t = \alpha P_t + \beta \text{EWMA}_{t-1} + \theta \text{EWMA}_{t-2} + (1 - \alpha - \beta - \theta) \text{EWMA}_{t-3}
-  \]$$
+- **Smoothing**: EWMA with lagged terms: EWMAₜ = α·Pₜ + β·EWMAₜ₋₁ + θ·EWMAₜ₋₂ + (1 − α − β − θ)·EWMAₜ₋₃
 - **Z-Score Calculation**: Deviation from EWMA normalized by rolling standard deviation (60-min window)
 - **Volatility Filter**: Rolling standard deviation compared to a predefined threshold
 - **Sharpe Ratio**: Annualized using 252 × 390 observations (1-minute bars)
@@ -34,7 +31,7 @@ This project implements a quantitative intraday trading strategy on minute-level
 
 | Metric                    | Strategy   | Buy & Hold|
 |---------------------------|------------|-----------|
-| Annualized Sharpe Ratio   | > 2.26     | 0.98      |
+| Annualized Sharpe Ratio   | 2.26       | 0.98      |
 | Max Drawdown              | -61.71%    | -43.75%   |
 | Cumulative Return         | Higher     | Lower     |
 | Trades Executed           | Controlled | Passive   |
