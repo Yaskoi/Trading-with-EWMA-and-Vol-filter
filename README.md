@@ -23,7 +23,7 @@ This project implements a quantitative intraday trading strategy on minute-level
 - **Z-Score Calculation**: Deviation from EWMA normalized by rolling standard deviation (60-min window)
 - **Volatility Filter**: Rolling standard deviation compared to a predefined threshold
 - **Sharpe Ratio**: Annualized using 252 × 390 observations (1-minute bars)
-- **Transaction Costs**: Configurable (default 0.1%). It's really high but I wanted to test the robustness of my strategy.
+- **Transaction Costs**: Configurable (default 0.1%).
 
 ---
 
