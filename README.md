@@ -49,8 +49,8 @@ This project implements a quantitative intraday trading strategy on minute-level
 
 ## 📌 Future Improvements
 
-- Hyperparameter optimization (alpha, beta, threshold n)
-- Optimization of the strategy in order to adapt to different market conditiosn (My strategy became a little bit innacurate at one point)
+- Hyperparameter optimization, with vol_level adapting to each asset. The idea would be at end to calibrate those parameters with historical data in order to be efficient on live paper trading
+- Optimization of the strategy in order to adapt to different market conditions (My strategy became a little bit innacurate at one point)
 - Backtest on multiple timeframes (5m, 15m)
 - Maybe a live test with paper trading
 ---
