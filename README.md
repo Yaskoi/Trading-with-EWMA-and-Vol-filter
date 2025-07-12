@@ -27,7 +27,7 @@ This project implements a quantitative intraday trading strategy on minute-level
 
 ---
 
-## 📊 Performance Summary (Sample: NVDA, 1-min data)
+## 📊 Performance Summary (Sample: TSLA, 1-min data)
 
 | Metric                    | Strategy   | Buy & Hold|
 |---------------------------|------------|-----------|
@@ -42,7 +42,7 @@ This project implements a quantitative intraday trading strategy on minute-level
 
 ## 📁 Files
 
-- `nvda_1min.csv` / `tsla_1min.csv`: Historical minute-level data
+- `tsla_1min.csv` / `nvda_1min.csv`: Historical minute-level data
 - `script.ipynb`: Main strategy logic, visuals, and performance metrics
 
 ---
